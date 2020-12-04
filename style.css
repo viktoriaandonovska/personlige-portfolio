@@ -25,9 +25,7 @@
     margin-left: 45%;
 }
 
-
 /* Her slutter HEADER */
-
 
 
 /* Her starter BURGERMENU */
@@ -40,6 +38,68 @@
 
 
 /* Her starter FORSIDE */
+
+.profile {
+    background-color: #fdf1ea;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.profile h2 {
+        position: absolute;
+        top: 24%;
+        left: 5%;
+        color: #ffffff;      
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0.15ch;
+}
+
+
+
+.info {
+    background-color: #fdf1ea;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.info h1 {
+    color: #535353;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.info p {
+    color: #535353;
+    font-size: 15px;
+}
+
+.info a {
+    letter-spacing: 0.35ch;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 3%;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-decoration: none;
+    font-size: 12px;
+    color: #535353;
+    background-color: #cc9999;
+    display: block;
+}
+
+.info a:hover {
+    color: #f1f1f1;
+    background-color: #895a5a;
+}
+
+
+
+
+
 
 
 
@@ -80,6 +140,67 @@
         width: 8%;
         margin-left: 45%;
     }
+
+/* PROFILE */ 
+    .profile {
+        background-color: #fdf1ea;
+    }
+    
+    .profile img {
+        width: 100%;
+    }
+    
+    .profile h2 {
+            position: absolute;
+            top: 73%;
+            left: 5%;
+            color: #ffffff;      
+            text-align: center;
+            font-size: 110px;
+            letter-spacing: 0.15ch;
+    }
+
+
+/* INFO */ 
+    .info {
+        background-color: #fdf1ea;
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+    
+    .info h1 {
+        color: #535353;
+        font-size: 23px;
+        text-align: center;
+        padding-bottom: 0.5rem;
+    }
+    
+    .info p {
+        color: #535353;
+        font-size: 15px;
+    }
+    
+    .info a {
+        letter-spacing: 0.35ch;
+        text-align: center;
+        padding: 0.5rem;
+        margin-top: 3%;
+        margin-right: 35%;
+        margin-left: 35%;
+        text-decoration: none;
+        font-size: 12px;
+        color: #535353;
+        background-color: #cc9999;
+        display: block;
+    }
+    
+    .info a:hover {
+        color: #f1f1f1;
+        background-color: #895a5a;
+    }
+
+
+
 
 
 
