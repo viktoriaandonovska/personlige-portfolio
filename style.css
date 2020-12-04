@@ -62,19 +62,20 @@
 .info {
     background-color: #fdf1ea;
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .info h1 {
     color: #535353;
     font-size: 23px;
     text-align: center;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .info p {
     color: #535353;
     font-size: 15px;
+    padding-bottom: 0.5rem;
 }
 
 .info a {
@@ -165,35 +166,38 @@
     .info {
         background-color: #fdf1ea;
         padding: 1rem;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
-    
+
     .info h1 {
         color: #535353;
-        font-size: 23px;
+        font-size: 45px;
         text-align: center;
-        padding-bottom: 0.5rem;
+        padding-bottom: 2rem;
     }
-    
+
     .info p {
         color: #535353;
-        font-size: 15px;
+        font-size: 27px;
+        padding-bottom: 0.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
-    
+
     .info a {
         letter-spacing: 0.35ch;
         text-align: center;
-        padding: 0.5rem;
-        margin-top: 3%;
+        padding: 1rem;
+        margin-top: 2%;
         margin-right: 35%;
         margin-left: 35%;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 20px;
         color: #535353;
         background-color: #cc9999;
         display: block;
     }
-    
+
     .info a:hover {
         color: #f1f1f1;
         background-color: #895a5a;
