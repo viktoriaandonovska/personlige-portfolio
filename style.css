@@ -15,7 +15,15 @@
 
 /* Her starter HEADER */
 
+.header {
+    background-color: #895a5a;
+    padding: 0.5rem;
+}
 
+.header img {
+    width: 15%;
+    margin-left: 45%;
+}
 
 
 /* Her slutter HEADER */
@@ -61,9 +69,19 @@
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 667px) {
-
-
-
     
+/* HEADER */ 
+    .header {
+        background-color: #895a5a;
+        padding: 0.5rem;
+    }
+    
+    .header img {
+        width: 8%;
+        margin-left: 45%;
+    }
+
+
+
 }
 
