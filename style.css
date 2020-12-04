@@ -169,6 +169,53 @@
 
 
 
+
+.cv {
+    background-color: #fdf1ea;
+    padding: 3%;
+}
+
+.cv img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.cv h1 {
+    position: absolute;
+    top: 137%;
+    left: 40%;
+    color: #ffffff;      
+    text-align: center;
+    font-size: 35px;
+}
+
+.cv h2 {
+    margin-top: 11rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+}
+
+.cv p {
+    font-size: 15px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+.cv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
 /* Her slutter FORSIDE */
 
 
@@ -336,6 +383,51 @@
         color: #f1f1f1;
         background-color: #895a5a;
     }
+
+
+/* CV */
+    .cv {
+        background-color: #fdf1ea;
+        padding: 3rem;
+    }
+    
+    .cv img {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .cv h1 {
+        position: absolute;
+        top: 260%;
+        left: 45%;
+        color: #ffffff;      
+        text-align: center;
+        font-size: 95px;
+    }
+    
+    .cv h2 {
+        margin-top: 20rem;
+        padding-bottom: 0.5rem;
+        font-size: 38px;
+    }
+    
+    .cv p {
+        font-size: 27px;
+    }
+    
+    .column {
+        float: left;
+        width: 30%;
+    }
+    
+    .cv:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+
 
 
 
