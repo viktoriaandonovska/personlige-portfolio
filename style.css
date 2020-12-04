@@ -125,7 +125,7 @@
 .mineprojekter {
     background-color: #fdf1ea;
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .mineprojekter img {
@@ -134,16 +134,17 @@
 
 .mineprojekter h1 {
     position: absolute;
-    top: 88%;
-    left: 24%;
+    top: 94%;
+    left: 22%;
     color: #ffffff;      
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .mineprojekter p {
     color: #535353;
     font-size: 15px;
+    margin-top: 0.5rem;
 }
 
 .mineprojekter a {
@@ -151,7 +152,7 @@
     text-align: center;
     padding: 0.5rem;
     margin-bottom: 2rem;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-right: 35%;
     margin-left: 35%;
     text-decoration: none;
@@ -285,6 +286,55 @@
         color: #535353;
         text-align: center;
         margin-left: 12%;
+    }
+
+
+/* MINE PROJEKTER */ 
+    .mineprojekter {
+        background-color: #fdf1ea;
+        padding: 1rem;
+        padding-top: 1.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .mineprojekter img {
+        width: 100%;
+    }
+
+    .mineprojekter h1 {
+        position: absolute;
+        top: 180%;
+        left: 28%;
+        color: #ffffff;      
+        text-align: center;
+        font-size: 90px;
+    }
+
+    .mineprojekter p {
+        color: #535353;
+        font-size: 27px;
+        margin-top: 1.5rem;
+    }
+
+    .mineprojekter a {
+        letter-spacing: 0.35ch;
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 4%;
+        margin-right: 35%;
+        margin-left: 35%;
+        text-decoration: none;
+        font-size: 20px;
+        color: #535353;
+        background-color: #cc9999;
+        display: block;
+    }
+
+    .mineprojekter a:hover {
+        color: #f1f1f1;
+        background-color: #895a5a;
     }
 
 
