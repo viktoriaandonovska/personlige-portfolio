@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+    /*Indsæt font her*/ 
+    font-family: centurygothic;
+    
+    }
+    
+    @font-face {
+        font-family: centurygothic;
+        src: url(./fonts/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf);
+      }
+
+
+/* Her starter HEADER */
+
+
+
+
+/* Her slutter HEADER */
+
+
+
+/* Her starter BURGERMENU */
+
+
+
+
+/* Her slutter BURGERMENU */
+
+
+
+/* Her starter FORSIDE */
+
+
+
+
+/* Her slutter FORSIDE */
+
+
+
+/* Her starter GALLERI */
+
+
+
+
+/* Her slutter GALLERI */
+
+
+
+/* Her starter FOOTER */
+
+
+
+
+/* Her slutter FOOTER */
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 667px) {
+
+
+
+    
+}
+
