@@ -11,21 +11,39 @@
 
 <body>
 
-<!-- Her starter HEADER -->
+<!-- Her starter HEADER + BURGERMENU-->
 
 <div class="header">
     <img src="./image/logo.png">
+
+
+    <div class="burger"> 
+        <img onclick="openNav()" src="./image/burger.png" alt="menuicon">
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="http://hjorthex.dk/volta">Forside</a>
+        <a href="http://andonovska.dk/volta">Mine projekter</a>
+        <a href="http://boldenst.dk/volta">Om mig</a>     
+        <a href="http://lauramedie.dk/volta">Kontakt</a>
+    </div>
+    </header>
+
+        
+        <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "100vw";
+        }
+        
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
 </div>
 
-<!-- Her slutter HEADER -->
-
-
-
-<!-- Her starter BURGERMENU -->
-
-
-
-<!-- Her slutter BURGERMENU -->
+<!-- Her slutter HEADER + BURGERMENU -->
 
 
 

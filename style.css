@@ -30,7 +30,56 @@
 
 /* Her starter BURGERMENU */
 
+    .burger {
+        width: 2rem;
+        float: right;
+        right: 0;
+        margin-right: 1rem;
+    }
 
+    .burger img {
+        width: 100%;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #535353;
+        overflow-x: hidden;
+        padding-top: 5rem;
+      }
+      
+      .sidenav a {
+        text-transform: uppercase;
+        letter-spacing: 0.35ch;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 1rem;
+        text-decoration: none;
+        font-size: 25px;
+        color: #535353;
+        background-color: #cc9999;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+        background-color: #895a5a;
+      }
+      
+      .sidenav .closebtn {
+        color: #cc9999;
+        background-color: #535353;
+        position: absolute;
+        top: -0.8rem;
+        right: 0rem;
+        font-size: 6ch;
+        
+      }
 
 
 /* Her slutter BURGERMENU */
@@ -437,7 +486,8 @@
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 667px) {
-    
+
+
 /* HEADER */ 
     .header {
         background-color: #895a5a;
@@ -448,6 +498,60 @@
         width: 8%;
         margin-left: 45%;
     }
+
+
+/* BURGERMENU */
+    
+    .burger {
+        width: 40%;
+        margin-top: 0.5rem;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #535353;
+        overflow-x: hidden;
+        padding-top: 5rem;
+    }
+    
+    .sidenav a {
+        text-transform: uppercase;
+        letter-spacing: 0.35ch;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        text-decoration: none;
+        font-size: 25px;
+        color: #535353;
+        background-color: #cc9999;
+        display: block;
+    }
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+        background-color: #895a5a;
+    }
+    
+    .sidenav .closebtn {
+        color: #cc9999;
+        background-color: #535353;
+        position: absolute;
+        top: -0.8rem;
+        right: 0rem;
+        font-size: 6ch;
+        
+    }
+
+
+
+
 
 /* PROFILE */ 
     .profile {
