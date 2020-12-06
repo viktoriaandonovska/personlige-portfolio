@@ -437,14 +437,24 @@
 }
 
 
-
-
-
 /* Her slutter FORSIDE */
 
 
 
 /* Her starter GALLERI */
+
+.overskrift {
+    background-color: #fdf1ea
+}
+
+.overskrift h2{
+    color: #895a5a;
+    padding: 1rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+
 
 
 
@@ -904,6 +914,20 @@
     .project3 a:hover {
         color: #f1f1f1;
         background-color: #895a5a;
+    }
+
+
+/* GALLERI */
+
+    .overskrift {
+        background-color: #fdf1ea
+    }
+    
+    .overskrift h2{
+        color: #895a5a;
+        padding: 2rem;
+        text-align: center;
+        font-size: 50px;
     }
 
 
