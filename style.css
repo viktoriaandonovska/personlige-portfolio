@@ -443,6 +443,12 @@
 
 /* Her starter GALLERI */
 
+.underside {
+    padding-bottom: 75rem;
+    background-color: #fdf1ea;
+}
+
+
 .overskrift {
     background-color: #fdf1ea
 }
@@ -455,8 +461,21 @@
 }
 
 
+.gallery {
+    margin: 1rem;
+    width: 150px;
+    float: left;  
+}
 
-
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    text-align: center;
+    color: #535353;
+  }
 
 
 /* Her slutter GALLERI */
@@ -918,29 +937,42 @@
 
 
 /* GALLERI */
-
+    
+    .underside {
+        padding-bottom: 45rem;
+        background-color: #fdf1ea;
+    }
+    
+    
     .overskrift {
         background-color: #fdf1ea
     }
     
     .overskrift h2{
         color: #895a5a;
-        padding: 2rem;
+        padding: 1rem;
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
     }
-
-    .galleri {
-        margin: 10px -16px;
+    
+    
+    .gallery {
+        width: 200px;
+        float: left;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;  
         background-color: #fdf1ea;
     }
-    
-    .logo {
-        color: #535353;
-        padding: 10px;
-    }
 
-    
+    .gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+    .desc {
+        text-align: center;
+        color: #535353;
+      }
 
 
 
