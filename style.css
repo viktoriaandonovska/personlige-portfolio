@@ -930,6 +930,17 @@
         font-size: 50px;
     }
 
+    .galleri {
+        margin: 10px -16px;
+        background-color: #fdf1ea;
+    }
+    
+    .logo {
+        color: #535353;
+        padding: 10px;
+    }
+
+    
 
 
 
