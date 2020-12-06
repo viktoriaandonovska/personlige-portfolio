@@ -950,7 +950,7 @@
     
     .overskrift h2{
         color: #895a5a;
-        padding: 1rem;
+        padding: 2rem;
         text-align: center;
         font-size: 40px;
     }
@@ -972,6 +972,7 @@
     .desc {
         text-align: center;
         color: #535353;
+        padding-bottom: 2rem;
       }
 
 
