@@ -577,24 +577,24 @@
 
 /* Her starter FOOTER */
 
-.footer {
+.end {
     background-color: #895a5a;
     padding: 1rem;
     padding-bottom: 2rem;
 }
 
-.footer h1 {
+.end h1 {
     font-size: 15px;
     color: #ffffff;
     padding-bottom: 0.5rem;
 }
 
-.footer h2 {
+.end h2 {
     font-size: 10px;
     color: #ffffff;
 }
 
-.footer img {
+.end img {
     width: 5%;
     float: right;
     margin: 1%;
@@ -1155,25 +1155,25 @@
 
 
 /* FOOTER */
-    .footer {
+    .end {
         background-color: #895a5a;
         padding: 1rem;
         padding-top: 2rem;
         padding-bottom: 4rem;
     }
     
-    .footer h1 {
+    .end h1 {
         font-size: 25px;
         color: #ffffff;
         padding-bottom: 0.5rem;
     }
     
-    .footer h2 {
+    .end h2 {
         font-size: 13px;
         color: #ffffff;
     }
 
-    .footer img {
+    .end img {
         width: 3%;
         margin: 1%;
     }
