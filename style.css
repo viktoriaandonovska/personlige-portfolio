@@ -822,7 +822,7 @@
     }
     
     .cv h2 {
-        margin-top: 20rem;
+        margin-top: 23rem;
         padding-bottom: 0.5rem;
         font-size: 38px;
         color: #535353;
@@ -836,10 +836,6 @@
     .column {
         float: left;
         width: 30%;
-    }
-
-    .column-2 {
-        width: 40%;
     }
     
     .cv:after {
