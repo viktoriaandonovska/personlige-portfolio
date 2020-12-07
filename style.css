@@ -88,6 +88,13 @@
 
 /* Her starter FORSIDE */
 
+.grid-profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fdf1ea;
+    padding: 1rem;
+}
+
 .profile {
     background-color: #fdf1ea;
 }
@@ -552,11 +559,19 @@
     font-size: 25px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fdf1ea;
+    padding: 1rem;
+
+}
+
 
 .gallery {
-    margin: 1rem;
     width: 155px;
-    float: left;  
+    padding-bottom: 2rem;
+    float: center;  
 }
 
 .gallery img {
@@ -676,6 +691,14 @@
 
 
 /* PROFILE */ 
+    
+    .grid-profile {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #fdf1ea;
+        padding: 1rem;
+    } 
+
     .profile {
         background-color: #fdf1ea;
     }
@@ -1114,7 +1137,7 @@
 /* GALLERI */
     
     .underside {
-        padding-bottom: 45rem;
+        padding-bottom: 40rem;
         background-color: #fdf1ea;
     }
     
@@ -1130,7 +1153,16 @@
         font-size: 40px;
     }
     
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: #fdf1ea;
+        padding: 1rem;
     
+    }
+    
+
     .gallery {
         width: 200px;
         float: left;
