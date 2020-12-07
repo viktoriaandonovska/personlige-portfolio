@@ -239,7 +239,7 @@
 }
 
 .cv h2 {
-    margin-top: 12.5rem;
+    margin-top: 1rem;
     padding-bottom: 0.5rem;
     font-size: 20px;
 }
@@ -251,7 +251,11 @@
 }
 
 .uddannelse {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+}
+
+.uddannelse-2 {
+    margin-bottom: 8rem;
 }
 
 .column {
@@ -551,7 +555,7 @@
 
 .gallery {
     margin: 1rem;
-    width: 150px;
+    width: 155px;
     float: left;  
 }
 
@@ -823,7 +827,7 @@
     }
     
     .cv h2 {
-        margin-top: 23rem;
+        margin-top: 2rem;
         padding-bottom: 0.5rem;
         font-size: 38px;
         color: #535353;
@@ -846,7 +850,11 @@
     }
 
     .uddannelse {
-        margin-bottom: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    .uddannelse-2 {
+        margin-bottom: 15rem;
     }
 
 
